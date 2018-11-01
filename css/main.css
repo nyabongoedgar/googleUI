@@ -1,3 +1,19 @@
+@media only screen and (max-width: 600px) {
+   #googleDiv{
+    width: auto!important;
+	padding:10px;
+	box-sizing:border-box;
+						}
+	#content #googleDiv button{
+    color:#737373;
+    font-weight:bold;
+    font-size:14px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    height: 31px;
+	width:100%;
+}
+}
 html,body{
     padding:0;
     margin:0;
@@ -11,13 +27,13 @@ html,body{
 }
  
 #content{
-padding-bottom: 70px; /* height of the footer */
+padding-bottom: 60px; /* height of the footer */
 text-align:center;
 min-height:100%;
 
 }
 #footer{
-    height:70px;
+    height:60px;
     padding:10px;
     bottom:0;
     color:#737373;
@@ -34,10 +50,13 @@ min-height:100%;
     outline: none;
     margin-bottom: 10px;
     width: 100%;
-    box-shadow: 3px 3px #dcdbdb;
+    box-shadow: 3px 3px 3px 3px #dcdbdb;
     border:none;
 	background:white url('../images/voiceImage.jpg') right no-repeat;
-	padding-right:17px;
+    padding-right:17px;
+    border-radius:4px;
+	padding-left: 14px;
+	box-sizing:border-box;
 }
 #content #googleDiv button{
     color:#737373;
@@ -74,7 +93,19 @@ min-height:100%;
     float:left;
 }
 
-#footer #navBar{
+#footer ul{
     background-color: #e0e0e0;
-    font-size: 15px;
+    height:43px;
+	border-top: 2px solid #d3d3d3;
+	list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:auto;
+}
+#footer li{
+ font-size:15px;
+    display:block;
+    text-decoration:none;
+    padding:10px;
+    float:left;
 }
