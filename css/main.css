@@ -36,6 +36,8 @@ min-height:100%;
     width: 100%;
     box-shadow: 3px 3px #dcdbdb;
     border:none;
+	background:white url('../images/voiceImage.jpg') right no-repeat;
+	padding-right:17px;
 }
 #content #googleDiv button{
     color:#737373;
